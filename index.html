@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
@@ -10,21 +11,30 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
-<body id="home">
+
+<body>
     <div class="navbar-fixed">
         <nav class="deep-purple lighten-1" role="navigation">
             <div class="nav-wrapper">
-                <ul id="nav-mobile" class="right hide-on-small-only">
-                    <li class="active"><a href="#home">Home</a></li>
+                <ul id="nav-mobile" class="right hide-on-small-only scrollspy-menu">
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#screenshots">Screenshots</a></li>
                     <li><a href="#play">Play</a></li>
                     <li><a href="#about">About</a></li>
                 </ul>
+                <ul id="slide-out" class="side-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#screenshots">Screenshots</a></li>
+                    <li><a href="#play">Play</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
         </nav>
     </div>
-    <div class="section no-pad-bot" id="index-banner">
+    <div class="section no-pad-bot scrollspy" id="home">
         <div class="container">
             <div class="row center">
                 <img class="responsive-img" src="images/title.svg" onerror="this.src='images/title.png'" alt="CubeBall title">
@@ -43,11 +53,8 @@
             <br>
         </div>
     </div>
-    <div id="features"></div>
-    <br>
-    <br>
     <div class="container">
-        <div class="section">
+        <div id="features" class="section scrollspy">
             <h2>Features</h2>
             <div class="row">
                 <div class="col s12 m4">
@@ -97,10 +104,7 @@
             </div>
         </div>
     </div>
-    <div id="screenshots"></div>
-    <br>
-    <br>
-    <div class="container">
+    <div id="screenshots" class="container scrollspy">
         <div class="section">
             <h2>Screenshots</h2>
             <div class="row center">
@@ -111,10 +115,7 @@
             </div>
         </div>
     </div>
-    <div id="play"></div>
-    <br>
-    <br>
-    <div class="container">
+    <div id="play" class="container scrollspy">
         <div class="section">
             <h2>Play</h2>
             <p>
@@ -123,8 +124,7 @@
             <a href='https://play.google.com/store/apps/details?id=com.araxor.cubeball&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' /></a>
         </div>
     </div>
-
-    <footer class="page-footer deep-purple lighten-1">
+    <footer id="about" class="page-footer deep-purple lighten-1 scrollspy">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
@@ -147,10 +147,9 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/noframework.waypoints.min.js"></script>
 
-    <script>
-    </script>
-
+    <script src="js/menuscroll.js"></script>
 </body>
 
 </html>

@@ -6,8 +6,15 @@
  * Made By MaterializeCSS.com
  */
 
+
+.scrollspy
+{
+  padding-top: 70px;
+}
+
+
 .icon {
-  padding: 0 25%; 
+  padding: 0 25%;
 }
 
 .icon-block {
