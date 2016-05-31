@@ -12,6 +12,9 @@
   padding-top: 70px;
 }
 
+.screenshot {
+  margin-bottom: 20px;
+}
 
 .icon {
   padding: 0 25%;
@@ -20,6 +23,7 @@
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
 	font-size: inherit;
 }
