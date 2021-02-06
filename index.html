@@ -2,154 +2,438 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
     <title>CubeBall</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
 <body>
-    <div class="navbar-fixed">
-        <nav class="deep-purple lighten-1" role="navigation">
-            <div class="nav-wrapper">
-                <ul id="nav-mobile" class="right hide-on-small-only scrollspy-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#screenshots">Screenshots</a></li>
-                    <li><a href="#play">Play</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-                <ul id="slide-out" class="side-nav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#screenshots">Screenshots</a></li>
-                    <li><a href="#play">Play</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-                <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-            </div>
-        </nav>
-    </div>
-    <div class="section no-pad-bot scrollspy" id="home">
-        <div class="container">
-            <div class="row center">
-                <img class="responsive-img" src="images/title.svg" onerror="this.src='images/title.png'" alt="CubeBall title">
-            </div>
-            <div class="row center">
-                <img class="responsive-img" src="images/icon512.svg" onerror="this.src='images/icon512.png'" alt="CubeBall icon">
-            </div>
-
-            <div class="row center">
-                <h5 class="header col s12 light">Multiplayer pong-like VR game in a cube</h5>
-            </div>
-            <div class="row center">
-                <a href="#play" class="btn-large waves-effect waves-light light-green">Play for free</a>
-            </div>
-            <br>
-            <br>
+<div class="navbar-fixed">
+    <nav class="deep-purple lighten-1" role="navigation">
+        <div class="nav-wrapper">
+            <ul id="nav-mobile" class="right hide-on-small-only scrollspy-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#play">Play</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <ul id="slide-out" class="side-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#play">Play</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
         </div>
-    </div>
+    </nav>
+</div>
+<div class="section no-pad-bot scrollspy" id="home">
     <div class="container">
-        <div id="features" class="section scrollspy">
-            <h2>Features</h2>
-            <div class="row">
-                <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <img class="responsive-img icon" src="images/icon_multiplayer.svg" onerror="this.src='images/icon_multiplayer.png'" alt="CubeBall title">
-                        <h5>Local network multiplayer</h5>
-                        <p class="light">Compete against up to six friends in local network!</p>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <img class="responsive-img icon" src="images/icon_vr.svg" onerror="this.src='images/icon_vr.png'" alt="CubeBall title">
-                        <h5 class="center">Google VR</h5>
-                        <p class="light center">The game is compatible with Google VR (formerly Google Cardboard) for an ultra-immersive experience!</p>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <img class="responsive-img icon" src="images/icon_ai.svg" onerror="this.src='images/icon_ai.png'" alt="CubeBall title">
-                        <h5 class="center">Artificial Intelligence</h5>
-                        <p class="light center">Don't have friends to play with? No problem! Try to defeat AI-driven opponents!</p>
-                    </div>
+        <div class="row center">
+            <img class="responsive-img" src="images/title.svg" onerror="this.src='images/title.png'"
+                 alt="CubeBall title">
+        </div>
+        <div class="row center">
+            <img class="responsive-img" src="images/icon512.svg" onerror="this.src='images/icon512.png'"
+                 alt="CubeBall icon">
+        </div>
+
+        <div class="row center">
+            <h5 class="header col s12 light">Multiplayer pong-like VR game in a cube</h5>
+        </div>
+        <div class="row center">
+            <a href="#play" class="btn-large waves-effect waves-light light-green">Play for free</a>
+        </div>
+        <br>
+        <br>
+    </div>
+</div>
+<div class="container">
+    <div id="features" class="section scrollspy">
+        <h2>Features</h2>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="icon-block center">
+                    <img class="responsive-img icon" src="images/icon_multiplayer.svg"
+                         onerror="this.src='images/icon_multiplayer.png'" alt="CubeBall title">
+                    <h5>Local network multiplayer</h5>
+                    <p class="light">Compete against up to six friends in local network!</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <img class="responsive-img icon" src="images/icon_spectator.svg" onerror="this.src='images/icon_spectator.png'" alt="CubeBall title">
-                        <h5 class="center">Spectator mode</h5>
-                        <p class="light center">Tired of playing? You can also watch your friends while they play by joining the match as a spectator!</p>
-                    </div>
+            <div class="col s12 m4">
+                <div class="icon-block center">
+                    <img class="responsive-img icon" src="images/icon_vr.svg" onerror="this.src='images/icon_vr.png'"
+                         alt="CubeBall title">
+                    <h5 class="center">Google VR</h5>
+                    <p class="light center">The game is compatible with Google VR (formerly Google Cardboard) for an
+                        ultra-immersive experience!</p>
                 </div>
-                <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <img class="responsive-img icon" src="images/icon_tutorial.svg" onerror="this.src='images/icon_tutorial.png'" alt="CubeBall title">
-                        <h5 class="center">Tutorial</h5>
-                        <p class="light center">You don't know how to play? A tutorial will guide you through your first steps!</p>
-                    </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="icon-block center">
+                    <img class="responsive-img icon" src="images/icon_ai.svg" onerror="this.src='images/icon_ai.png'"
+                         alt="CubeBall title">
+                    <h5 class="center">Artificial Intelligence</h5>
+                    <p class="light center">Don't have friends to play with? No problem! Try to defeat AI-driven
+                        opponents!</p>
                 </div>
-                <div class="col s12 m4">
-                    <div class="icon-block center">
-                        <img class="responsive-img icon" src="images/icon_unity.svg" onerror="this.src='images/icon_unity.png'" alt="CubeBall title">
-                        <h5 class="center">Made with unity</h5>
-                        <p class="light center">The game has been made with the amazing Unity Engine.</p>
-                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="icon-block center">
+                    <img class="responsive-img icon" src="images/icon_spectator.svg"
+                         onerror="this.src='images/icon_spectator.png'" alt="CubeBall title">
+                    <h5 class="center">Spectator mode</h5>
+                    <p class="light center">Tired of playing? You can also watch your friends while they play by joining
+                        the match as a spectator!</p>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="icon-block center">
+                    <img class="responsive-img icon" src="images/icon_tutorial.svg"
+                         onerror="this.src='images/icon_tutorial.png'" alt="CubeBall title">
+                    <h5 class="center">Tutorial</h5>
+                    <p class="light center">You don't know how to play? A tutorial will guide you through your first
+                        steps!</p>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="icon-block center">
+                    <img class="responsive-img icon" src="images/icon_unity.svg"
+                         onerror="this.src='images/icon_unity.png'" alt="CubeBall title">
+                    <h5 class="center">Made with unity</h5>
+                    <p class="light center">The game has been made with the amazing Unity Engine.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div id="screenshots" class="container scrollspy">
-        <div class="section">
-            <h2>Screenshots</h2>
-            <div class="row center">
-                <img class="responsive-img screenshot materialboxed col s12 m6" data-caption="Main menu" src="images/screenshot_mainmenu.png">
-                <img class="responsive-img screenshot materialboxed col s12 m6" data-caption="Game options menu" src="images/screenshot_gameoptions.png">
-                <img class="responsive-img screenshot materialboxed col s12 m6" data-caption="Ingame action" src="images/screenshot_ingame_normal.png">
-                <img class="responsive-img screenshot materialboxed col s12 m6" data-caption="Ingame action in virtual reality" src="images/screenshot_ingame_vr.png">
-            </div>
+</div>
+<div id="screenshots" class="container scrollspy">
+    <div class="section">
+        <h2>Screenshots</h2>
+        <div class="row center">
+            <img class="responsive-img screenshot materialboxed col s12 m6" data-caption="Main menu"
+                 src="images/screenshot_mainmenu.png">
+            <img class="responsive-img screenshot materialboxed col s12 m6" data-caption="Game options menu"
+                 src="images/screenshot_gameoptions.png">
+            <img class="responsive-img screenshot materialboxed col s12 m6" data-caption="Ingame action"
+                 src="images/screenshot_ingame_normal.png">
+            <img class="responsive-img screenshot materialboxed col s12 m6"
+                 data-caption="Ingame action in virtual reality" src="images/screenshot_ingame_vr.png">
         </div>
     </div>
-    <div id="play" class="container scrollspy">
-        <div class="section">
-            <h2>Play</h2>
+</div>
+<div id="play" class="container scrollspy">
+    <div class="section">
+        <h2>Play</h2>
+        <p>
+            The game is available for Android on Google Play<sup>TM</sup>.
+        </p>
+        <a href='https://play.google.com/store/apps/details?id=com.araxor.cubeball&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+                class="responsive-img" alt='Get it on Google Play'
+                src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+    </div>
+</div>
+<div id="about" class="container scrollspy">
+    <div class="section">
+        <h2>About</h2>
+        <h3>Privacy policy</h3>
+        <strong>Privacy Policy</strong>
+        <p>
+            Dimitri Lizzi built the Cubeball for Google Cardboard app as
+            a Free app. This SERVICE is provided by
+            Dimitri Lizzi at no cost and is intended for use as
+            is.
+        </p>
+        <p>
+            This page is used to inform visitors regarding my
+            policies with the collection, use, and disclosure of Personal
+            Information if anyone decided to use my Service.
+        </p>
+        <p>
+            If you choose to use my Service, then you agree to
+            the collection and use of information in relation to this
+            policy. The Personal Information that I collect is
+            used for providing and improving the Service. I will not use or share your information with
+            anyone except as described in this Privacy Policy.
+        </p>
+        <p>
+            The terms used in this Privacy Policy have the same meanings
+            as in our Terms and Conditions, which is accessible at
+            Cubeball for Google Cardboard unless otherwise defined in this Privacy Policy.
+        </p>
+        <p><strong>Information Collection and Use</strong></p>
+        <p>
+            For a better experience, while using our Service, I
+            may require you to provide us with certain personally
+            identifiable information. The information that
+            I request will be retained on your device and is not collected by me in any way.
+        </p>
+        <div><p>
+            The app does use third party services that may collect
+            information used to identify you.
+        </p>
             <p>
-                The game is available for Android on Google Play<sup>TM</sup>.
+                Link to privacy policy of third party service providers used
+                by the app
             </p>
-            <a href='https://play.google.com/store/apps/details?id=com.araxor.cubeball&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="responsive-img" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' /></a>
+            <ul>
+                <li>
+                    <a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">
+                        Google Play Services
+                    </a>
+                </li>
+                <li>
+                    <a href="https://unity3d.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
+                        Unity
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p><strong>Log Data</strong></p>
+        <p>
+            I want to inform you that whenever you
+            use my Service, in a case of an error in the app
+            I collect data and information (through third party
+            products) on your phone called Log Data. This Log Data may
+            include information such as your device Internet Protocol
+            (“IP”) address, device name, operating system version, the
+            configuration of the app when utilizing my Service,
+            the time and date of your use of the Service, and other
+            statistics.
+        </p>
+        <p><strong>Cookies</strong></p>
+        <p>
+            Cookies are files with a small amount of data that are
+            commonly used as anonymous unique identifiers. These are sent
+            to your browser from the websites that you visit and are
+            stored on your device's internal memory.
+        </p>
+        <p>
+            This Service does not use these “cookies” explicitly. However,
+            the app may use third party code and libraries that use
+            “cookies” to collect information and improve their services.
+            You have the option to either accept or refuse these cookies
+            and know when a cookie is being sent to your device. If you
+            choose to refuse our cookies, you may not be able to use some
+            portions of this Service.
+        </p>
+        <p><strong>Service Providers</strong></p>
+        <p>
+            I may employ third-party companies and
+            individuals due to the following reasons:
+        </p>
+        <ul>
+            <li>To facilitate our Service;</li>
+            <li>To provide the Service on our behalf;</li>
+            <li>To perform Service-related services; or</li>
+            <li>To assist us in analyzing how our Service is used.</li>
+        </ul>
+        <p>
+            I want to inform users of this Service
+            that these third parties have access to your Personal
+            Information. The reason is to perform the tasks assigned to
+            them on our behalf. However, they are obligated not to
+            disclose or use the information for any other purpose.
+        </p>
+        <p><strong>Security</strong></p>
+        <p>
+            I value your trust in providing us your
+            Personal Information, thus we are striving to use commercially
+            acceptable means of protecting it. But remember that no method
+            of transmission over the internet, or method of electronic
+            storage is 100% secure and reliable, and I cannot
+            guarantee its absolute security.
+        </p>
+        <p><strong>Links to Other Sites</strong></p>
+        <p>
+            This Service may contain links to other sites. If you click on
+            a third-party link, you will be directed to that site. Note
+            that these external sites are not operated by me.
+            Therefore, I strongly advise you to review the
+            Privacy Policy of these websites. I have
+            no control over and assume no responsibility for the content,
+            privacy policies, or practices of any third-party sites or
+            services.
+        </p>
+        <p><strong>Children’s Privacy</strong></p>
+        <p>
+            These Services do not address anyone under the age of 13.
+            I do not knowingly collect personally
+            identifiable information from children under 13. In the case
+            I discover that a child under 13 has provided
+            me with personal information, I immediately
+            delete this from our servers. If you are a parent or guardian
+            and you are aware that your child has provided us with
+            personal information, please contact me so that
+            I will be able to do necessary actions.
+        </p>
+        <p><strong>Changes to This Privacy Policy</strong></p>
+        <p>
+            I may update our Privacy Policy from
+            time to time. Thus, you are advised to review this page
+            periodically for any changes. I will
+            notify you of any changes by posting the new Privacy Policy on
+            this page.
+        </p>
+        <p>This policy is effective as of 2021-02-06</p>
+
+        <h3>Terms &amp; Conditions</h3>
+        <p>
+            By downloading or using the app, these terms will
+            automatically apply to you – you should make sure therefore
+            that you read them carefully before using the app. You’re not
+            allowed to copy, or modify the app, any part of the app, or
+            our trademarks in any way. You’re not allowed to attempt to
+            extract the source code of the app, and you also shouldn’t try
+            to translate the app into other languages, or make derivative
+            versions. The app itself, and all the trade marks, copyright,
+            database rights and other intellectual property rights related
+            to it, still belong to Dimitri Lizzi.
+        </p>
+        <p>
+            Dimitri Lizzi is committed to ensuring that the app is
+            as useful and efficient as possible. For that reason, we
+            reserve the right to make changes to the app or to charge for
+            its services, at any time and for any reason. We will never
+            charge you for the app or its services without making it very
+            clear to you exactly what you’re paying for.
+        </p>
+        <p>
+            The Cubeball for Google Cardboard app stores and processes personal data that
+            you have provided to us, in order to provide my
+            Service. It’s your responsibility to keep your phone and
+            access to the app secure. We therefore recommend that you do
+            not jailbreak or root your phone, which is the process of
+            removing software restrictions and limitations imposed by the
+            official operating system of your device. It could make your
+            phone vulnerable to malware/viruses/malicious programs,
+            compromise your phone’s security features and it could mean
+            that the Cubeball for Google Cardboard app won’t work properly or at all.
+        </p>
+        <div><p>
+            The app does use third party services that declare their own
+            Terms and Conditions.
+        </p>
+            <p>
+                Link to Terms and Conditions of third party service
+                providers used by the app
+            </p>
+            <ul>
+                <li><a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Google Play
+                    Services</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                <li><a href="https://unity3d.com/legal/terms-of-service" target="_blank"
+                       rel="noopener noreferrer">Unity</a>
+                </li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul>
+        </div>
+        <p>
+            You should be aware that there are certain things that
+            Dimitri Lizzi will not take responsibility for. Certain
+            functions of the app will require the app to have an active
+            internet connection. The connection can be Wi-Fi, or provided
+            by your mobile network provider, but Dimitri Lizzi
+            cannot take responsibility for the app not working at full
+            functionality if you don’t have access to Wi-Fi, and you don’t
+            have any of your data allowance left.
+        </p>
+        <p></p>
+        <p>
+            If you’re using the app outside of an area with Wi-Fi, you
+            should remember that your terms of the agreement with your
+            mobile network provider will still apply. As a result, you may
+            be charged by your mobile provider for the cost of data for
+            the duration of the connection while accessing the app, or
+            other third party charges. In using the app, you’re accepting
+            responsibility for any such charges, including roaming data
+            charges if you use the app outside of your home territory
+            (i.e. region or country) without turning off data roaming. If
+            you are not the bill payer for the device on which you’re
+            using the app, please be aware that we assume that you have
+            received permission from the bill payer for using the app.
+        </p>
+        <p>
+            Along the same lines, Dimitri Lizzi cannot always take
+            responsibility for the way you use the app i.e. You need to
+            make sure that your device stays charged – if it runs out of
+            battery and you can’t turn it on to avail the Service,
+            Dimitri Lizzi cannot accept responsibility.
+        </p>
+        <p>
+            With respect to Dimitri Lizzi’s responsibility for your
+            use of the app, when you’re using the app, it’s important to
+            bear in mind that although we endeavour to ensure that it is
+            updated and correct at all times, we do rely on third parties
+            to provide information to us so that we can make it available
+            to you. Dimitri Lizzi accepts no liability for any
+            loss, direct or indirect, you experience as a result of
+            relying wholly on this functionality of the app.
+        </p>
+        <p>
+            At some point, we may wish to update the app. The app is
+            currently available on Android – the requirements for
+            system(and for any additional systems we
+            decide to extend the availability of the app to) may change,
+            and you’ll need to download the updates if you want to keep
+            using the app. Dimitri Lizzi does not promise that it
+            will always update the app so that it is relevant to you
+            and/or works with the Android version that you have
+            installed on your device. However, you promise to always
+            accept updates to the application when offered to you, We may
+            also wish to stop providing the app, and may terminate use of
+            it at any time without giving notice of termination to you.
+            Unless we tell you otherwise, upon any termination, (a) the
+            rights and licenses granted to you in these terms will end;
+            (b) you must stop using the app, and (if needed) delete it
+            from your device.
+        </p>
+        <p><strong>Changes to This Terms and Conditions</strong></p>
+        <p>
+            I may update our Terms and Conditions
+            from time to time. Thus, you are advised to review this page
+            periodically for any changes. I will
+            notify you of any changes by posting the new Terms and
+            Conditions on this page.
+        </p>
+        <p>
+            These terms and conditions are effective as of 2021-02-06
+        </p>
+    </div>
+</div>
+<footer class="page-footer deep-purple lighten-1">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">About</h5>
+                <p class="grey-text text-lighten-4">
+                    CubeBall has been made by Dimitri Lizzi
+                </p>
+            </div>
         </div>
     </div>
-    <footer id="about" class="page-footer deep-purple lighten-1 scrollspy">
+    <div class="footer-copyright">
         <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">About</h5>
-                    <p class="grey-text text-lighten-4">
-                        CubeBall has been made by Dimitri Lizzi
-                    </p>
-                </div>
-            </div>
+            © 2016 Dimitri Lizzi, All rights reserved. Android, Google Play, and the Google Play logo are trademarks of
+            Google Inc.
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2016 Dimitri Lizzi, All rights reserved. Android, Google Play, and the Google Play logo are trademarks of Google Inc.
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 
 
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/noframework.waypoints.min.js"></script>
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/noframework.waypoints.min.js"></script>
 
-    <script src="js/menuscroll.js"></script>
+<script src="js/menuscroll.js"></script>
 </body>
 
 </html>
